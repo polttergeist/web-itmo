@@ -1,0 +1,181 @@
+.header {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: 0px;
+	background-image: url("bg.jpg");
+	width: 1519px;
+	height: 753px;
+}
+
+ul {
+	margin-left: 150px;
+	
+}
+
+li {
+	display: inline;
+	font-family: arial;
+	margin: 15px;
+	font-size: 15px;
+}
+
+#headertext {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	letter-spacing: 5px;
+	font-size: 25px;
+}
+
+#href {
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	background-color: black;
+}
+
+.header.container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	height: 753px;
+	width: 1519px;
+}
+
+.white {
+	color: white;
+}
+
+.black {
+	color: black;
+}
+
+h1 {
+	font-size: 140px;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding-left: 280px;
+	padding-right: 280px;
+	padding-top: 65px;
+}
+
+.nav {
+	position: absolute;
+	top: 752px;
+	left: 0px;
+	width: 1519px;
+	height: 70px;
+	background-color: black;
+}
+
+.nav.container {
+	
+}
+
+.main {
+	position: absolute;
+	top: 823px;
+	left: 0px;
+	height: 400px;
+	width: 1519px;
+}
+
+img {
+	margin-top: 136px;
+	margin-bottom: 136px;
+	margin-left: 272px;
+	margin-right: 34px;
+}
+
+#texts {
+	position: absolute;
+	left: 600px;
+	top: 80px;
+	font-family: arial;
+	margin-right: 272px;
+}
+
+.jumbotron {
+	position: absolute;
+	top: 1223px;
+	left: 0px;
+	height: 600px;
+	width: 1519px;
+	background-image: url("jumbotron_bg.jpg");
+	background-size: 100%;
+	background-position: top 100px;
+}
+
+.jumbotron.container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	height: 600px;
+	width: 1519px;
+}
+
+.footer {
+	position: absolute;
+	top: 1823px;
+	left: 0px;
+	height: 80px;
+	width: 1519px;
+	background-color: black;
+}
+.footer.container {
+	padding-left: 80px;
+	padding-top: 20px;
+}
+
+/*li.redlink - only to li and redlink
+	li .redlink - all descendants
+	li > .redlink - daughter elems
+	
+	Pseudoclasses:
+	(a):hover, (a):onclick, ...
+	:lang(ru) ... <p lang='ru'>
+	Daughter elems' pseudoclasses
+	
+	Pseudoelems:
+	::first-letter; ::first-line; ::before, ::after; ::selection, ...
+	
+	Attributes' selectors:
+	input[type='text']{}
+	.link[href='http://apple.com']{}
+	a[href^='https://']{}
+	img[src$='.jpg']{}
+	a[href*='microsoft']{}
+	
+	Outer fonts
+	Size
+	Elems background
+	Elems as divs
+	Блочная вёрстка (floating divs)
+	Trick: put few divs into the extra one
+	Property 'display' (inline, block)
+	
+	li{
+		list-style-type: none;
+		...
+	}
+	Position: static, absollute, relative, fixed
+	float or! position (recommended)
+	Flex: flex-wrap, flex-grow, ...
+*/
+
+
+
+
+
+
+
+
+
+
+
+
